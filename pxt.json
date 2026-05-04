@@ -1,0 +1,11 @@
+Th{
+    "name": "input",
+    "version": "0.0.1",
+    "description": "The input helper library",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "input.ts"
+    ]
+}
