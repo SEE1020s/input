@@ -44,7 +44,7 @@ namespace Shortbuttons {
                 if (match) {
                     resetBuffer();
                     shortcut.handler();
-                    return; // Sai do loop após encontrar
+                    return;
                 }
             }
         }
