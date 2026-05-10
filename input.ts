@@ -56,12 +56,17 @@ namespace Shortbuttons {
     }
     
     //% blockId="on_shortcut_pressed" block="on shortcut pressed %buttons"
-    //% weight=100
+    //% weight=150
     export function onShortcutPressed(buttons: Button[], body: () => void): void {
         initListeners();
         registeredShortcuts.push({
             sequence: buttons,
             handler: body
         });
+    }
+    //% blockId="hover_button" block="%button"
+    //% weight=100
+    export function button_hover(button: Button) {
+        return button
     }
 }
