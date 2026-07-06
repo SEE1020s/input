@@ -64,7 +64,7 @@ namespace Shortbuttons {
             handler: body
         });
     }
-    //% blockId="hover_button" block="%button"
+    //% blockId="hover_button" block="button %button"
     //% weight=100
     export function button_hover(button: Button) {
         return button
